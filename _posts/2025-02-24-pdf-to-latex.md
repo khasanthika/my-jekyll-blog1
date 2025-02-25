@@ -44,7 +44,6 @@ def index():
         file = request.files['pdf_file']
         if file.filename == '':
             return "No file selected", 400
-```
         
         latex_content = pdf_to_latex(file)
         return render_template('result.html', latex_content=latex_content)
@@ -53,3 +52,4 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+```
