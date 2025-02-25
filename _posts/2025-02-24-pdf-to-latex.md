@@ -14,7 +14,7 @@ The Flask app uses the [PyPDF2](https://pypi.org/project/PyPDF2/) library to ext
 ### The Python Code
 
 #### `app.py`
-
+{% highlight python %}
 ```python
 from flask import Flask, request, render_template
 import PyPDF2
@@ -51,4 +51,7 @@ def index():
     return render_template('upload.html')
     if __name__ == '__main__':
     app.run(debug=True)
+{% endhighlight %}
+
+
 
