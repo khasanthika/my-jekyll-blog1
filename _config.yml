@@ -6,3 +6,10 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "PDF to LaTeX"
+    url: "https://pdkhasanthika.pythonanywhere.com/" # Link to your Flask app
+
