@@ -73,7 +73,7 @@ This new version of the **PDF to LaTeX Converter** is designed to **preserve doc
 3. **Detecting and extracting images** to include them in the LaTeX output.
 
 ### **How It Works**
-- The app switched from using PyPDF2 (which extracts plain text) to using [pdfplumber](https://github.com/jsvine/pdfplumber), which can extract text, tables, and even images. Then I added helper functions that try to format tables and images into LaTeX. Mathematical symbols and formulas that are text-based will be preserved (if the PDF was generated digitally rather than scanned). For scanned images of formulas, you’d need OCR specialized for math (for example, via an external API), which is beyond this basic example.
+The app switched from using PyPDF2 (which extracts plain text) to using [pdfplumber](https://github.com/jsvine/pdfplumber), which can extract text, tables, and even images. Then I added helper functions that try to format tables and images into LaTeX. Mathematical symbols and formulas that are text-based will be preserved (if the PDF was generated digitally rather than scanned). For scanned images of formulas, you’d need OCR specialized for math (for example, via an external API), which is beyond this basic example.
 
 ### **Benefits of This Approach**
 ✅ **More Accurate Document Conversion**: Retains formulas, tables, and images rather than just extracting raw text.  
