@@ -54,6 +54,7 @@ def index():
 
 ### Convert PDF to LaTeX
 
-Check out my Flask app that converts PDFs to LaTeX: [PDF to LaTeX App](https://pdkhasanthika.pythonanywhere.com)
+Check out my Flask app that converts PDFs to LaTeX: [PDF to LaTeX App](https://pdf-to-latex-app.onrender.com/)
+Check out my Flask app that converts PDFs to LaTeX version 2: [PDF to LaTeX App]([https://pdkhasanthika.pythonanywhere.com](https://pdkhasanthika.pythonanywhere.com/)
 
 
