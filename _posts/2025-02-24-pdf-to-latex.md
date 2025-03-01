@@ -56,6 +56,7 @@ def index():
 
 Check out my Flask app that converts PDFs to LaTeX: [PDF to LaTeX App](https://pdf-to-latex-app.onrender.com/)
 
+---
 ## **Adding Support for Tables, Images, and Mathematical Symbols**  
 
 Converting a PDF into LaTeX is an essential task for researchers, students, and professionals who need to edit, format, or republish documents. While a basic PDF-to-LaTeX converter extracts plain text, real-world documents often contain complex elements like **mathematical symbols, tables, graphs, and images**. To address these challenges, I have enhanced the original Flask-based converter to handle **structured content** more effectively.
